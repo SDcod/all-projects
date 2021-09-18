@@ -1,0 +1,64 @@
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+   
+}
+ h1{
+     
+     margin-top: 0;
+     color: rgb(109, 139, 139);
+    
+   
+    
+ }
+.container{
+    position: absolute;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    
+}
+
+#inputField{
+    position:relative;
+    background-color: rgb(228, 225, 170);
+    border: 2px solid rgb(168, 210, 221);
+    border-radius: 50px;
+    display: flex;
+    
+    
+    height: 25px;
+    width: 50%;
+    outline: none;
+    font-size: 20px;
+}
+
+#addToDo{
+    margin: 0.5rem;
+    padding: 0.6rem 0.8rem ;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.to-dos{
+    margin-top: 2rem;
+}
+
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#toDoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    
+}
